@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Marketing IE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="bg-primary text-white text-center py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="hero" class="text-center py-5 bg-primary text-white">
+        <h1>Great Marketing for Charity Events and Challenges</h1>
+        <p>Inspire greater impact with Great Marketing.</p>
+        <button class="btn btn-warning btn-lg" onclick="bookCall()">Book a Discovery Call</button>
+        <img src="images/IMG_2141.JPG" class="img-fluid mt-4" alt="Hero Image" loading="lazy">
+    </main>
+
+    <!-- Event Highlights -->
+    <section id="events" class="text-center py-5 bg-success text-white">
+        <h2>Our Impact</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="event m-3">
+                <img src="images/IMG_5008.JPG" class="img-thumbnail" alt="Event 1" loading="lazy">
+                <p>Event 1 Description</p>
+            </div>
+            <div class="event m-3">
+                <img src="images/IMG_5006.JPG" class="img-thumbnail" alt="Event 2" loading="lazy">
+                <p>Event 2 Description</p>
+            </div>
+        </div>
+        <button class="btn btn-warning btn-lg mt-4" onclick="learnMore()">Learn More</button>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="text-center py-5 bg-primary text-white">
+        <h2>What Our Clients Say</h2>
+        <div class="d-flex justify-content-center flex-wrap">
+            <div class="testimonial m-3">
+                <img src="images/client1.jpg" class="rounded-circle" alt="Client 1" loading="lazy">
+                <p>"Great Marketing IE transformed our fundraising!"</p>
+                <p>- Client 1</p>
+            </div>
+            <div class="testimonial m-3">
+                <img src="images/client2.jpg" class="rounded-circle" alt="Client 2" loading="lazy">
+                <p>"Outstanding results and support."</p>
+                <p>- Client 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Daithi -->
+    <section id="about" class="text-center py-5 bg-success text-white">
+        <h2>Meet Our Founder</h2>
+        <img src="images/daithi.jpg" class="rounded-circle mb-4" alt="Daithi" loading="lazy">
+        <p>Daithi's experience and philosophy.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="text-center py-5 bg-primary text-white">
+        <h2>Contact Us</h2>
+        <form class="w-50 mx-auto">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" name="email">
+            </div>
+            <button type="submit" class="btn btn-warning btn-lg">Submit</button>
+        </form>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Focus Styles for Accessibility */
+button:focus, input:focus {
+    outline: 3px solid #FFA000;
+    outline-offset: 2px;
+}
+
+/* Additional Custom Styles for Specific Elements */
+.event img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Modal Styles */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    max-width: 100%;
+}
+
+.close-button {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Hero Image */
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Adding some styling to the hero image */
+}
+
+/* Event Images */
+.event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Adding some styling to event images */
+}
+
+/* Testimonials */
+#testimonials .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
