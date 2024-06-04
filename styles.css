@@ -1,6 +1,8 @@
-* General Styles */
+/* General Styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #ECF0F1;
+    color: #34495E;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,13 +10,13 @@ body {
 
 /* Focus Styles for Accessibility */
 button:focus, input:focus {
-    outline: 3px solid #FFA000;
+    outline: 3px solid #18BC9C;
     outline-offset: 2px;
 }
 
 /* Additional Custom Styles for Specific Elements */
 .event img {
-    width: 100%;  /* Ensure images are responsive */
+    width: 100%;
     height: auto;
 }
 
@@ -53,22 +55,61 @@ button:focus, input:focus {
 }
 
 /* Hero Image */
+#hero {
+    background-color: #2C3E50;
+    color: white;
+    padding: 60px 0;
+}
 #hero img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;  /* Adding some styling to the hero image */
+    border-radius: 10px;
 }
 
 /* Event Images */
+#events {
+    background-color: #18BC9C;
+    color: white;
+    padding: 60px 0;
+}
 .event img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;  /* Adding some styling to event images */
+    border-radius: 10px;
 }
 
 /* Testimonials */
+#testimonials {
+    background-color: #2C3E50;
+    color: white;
+    padding: 60px 0;
+}
 #testimonials .testimonial img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+/* About Section */
+#about {
+    background-color: #18BC9C;
+    color: white;
+    padding: 60px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #2C3E50;
+    color: white;
+    padding: 60px 0;
+}
+
+/* Buttons */
+button.btn-warning {
+    background-color: #E74C3C;
+    border: none;
+    color: white;
+}
+button.btn-warning:hover {
+    background-color: #C0392B;
 }
