@@ -10,7 +10,7 @@ body {
 
 /* Focus Styles for Accessibility */
 button:focus, input:focus {
-    outline: 3px solid #18BC9C;
+    outline: 3px solid #32CD32;
     outline-offset: 2px;
 }
 
@@ -59,16 +59,17 @@ button:focus, input:focus {
     background-color: #2C3E50;
     color: white;
     padding: 60px 0;
+    text-align: center;
 }
 #hero img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
     border-radius: 10px;
 }
 
 /* Event Images */
 #events {
-    background-color: #18BC9C;
+    background-color: #32CD32;
     color: white;
     padding: 60px 0;
 }
@@ -92,7 +93,7 @@ button:focus, input:focus {
 
 /* About Section */
 #about {
-    background-color: #18BC9C;
+    background-color: #34495E;
     color: white;
     padding: 60px 0;
 }
@@ -106,10 +107,10 @@ button:focus, input:focus {
 
 /* Buttons */
 button.btn-warning {
-    background-color: #E74C3C;
+    background-color: #32CD32;
     border: none;
     color: white;
 }
 button.btn-warning:hover {
-    background-color: #C0392B;
+    background-color: #228B22;
 }
