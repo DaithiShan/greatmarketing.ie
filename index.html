@@ -4,62 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Great Marketing IE</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header id="header" class="bg-dark text-white text-center py-3">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content text-center">
+            <h1>Great Marketing for Charity Events and Challenges</h1>
+            <p>Inspire greater impact with Great Marketing.</p>
+            <a href="#contact" class="btn btn-primary">Book a Discovery Call</a>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <main id="hero" class="text-center py-5 bg-dark text-white">
-        <h1>Great Marketing for Charity Events and Challenges</h1>
-        <p>Inspire greater impact with Great Marketing.</p>
-        <button class="btn btn-warning btn-lg" onclick="bookCall()">Book a Discovery Call</button>
-        <img src="images/hero.jpg" class="img-fluid mt-4" alt="A group of people participating in a charity event" loading="lazy">
-        <img src="images/illustration1.svg" class="img-fluid mt-4" alt="Marketing Illustration" loading="lazy"> <!-- Example illustration -->
-    </main>
-
-    <!-- Event Highlights -->
-    <section id="events" class="text-center py-5 bg-secondary text-white">
-        <h2>Our Impact</h2>
-        <div class="d-flex justify-content-center flex-wrap">
-            <div class="event m-3">
-                <img src="images/event1.jpg" class="img-thumbnail" alt="Participants at Event 1 running in a marathon" loading="lazy">
-                <p>Event 1 Description</p>
-            </div>
-            <div class="event m-3">
-                <img src="images/event2.jpg" class="img-thumbnail" alt="Participants at Event 2 enjoying activities" loading="lazy">
-                <p>Event 2 Description</p>
+    <!-- Events Section -->
+    <section id="events" class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>Our Impact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/event1.jpg" class="rounded-circle mb-4" alt="Event 1 Description" loading="lazy">
+                    <p>Event 1 Description</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/event2.jpg" class="rounded-circle mb-4" alt="Event 2 Description" loading="lazy">
+                    <p>Event 2 Description</p>
+                </div>
             </div>
         </div>
-        <button class="btn btn-warning btn-lg mt-4" onclick="learnMore()">Learn More</button>
     </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials" class="text-center py-5 bg-dark text-white">
-        <h2>What Our Clients Say</h2>
-        <div class="d-flex justify-content-center flex-wrap">
-            <div class="testimonial m-3">
-                <img src="images/client1.jpg" class="rounded-circle" alt="Client 1 providing a testimonial" loading="lazy">
-                <p>"Great Marketing IE transformed our fundraising!"</p>
-                <p>- Client 1</p>
-            </div>
-            <div class="testimonial m-3">
-                <img src="images/client2.jpg" class="rounded-circle" alt="Client 2 providing a testimonial" loading="lazy">
-                <p>"Outstanding results and support."</p>
-                <p>- Client 2</p>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="text-center py-5 bg-secondary text-white">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/client1.jpg" class="rounded-circle mb-4" alt="Client 1 providing a testimonial" loading="lazy">
+                    <p>"Excellent service and results!"</p>
+                    <p>- Client 1</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/client2.jpg" class="rounded-circle mb-4" alt="Client 2 providing a testimonial" loading="lazy">
+                    <p>"Outstanding results and support."</p>
+                    <p>- Client 2</p>
+                </div>
             </div>
         </div>
     </section>
