@@ -65,6 +65,25 @@ img.rounded-circle {
     object-fit: cover;
 }
 
+/* Contact Form */
+form .form-group {
+    text-align: left;
+    margin: 0 auto;
+}
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+form .form-control {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+}
+form .btn {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content h1 {
