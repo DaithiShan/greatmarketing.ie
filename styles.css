@@ -67,21 +67,23 @@ img.rounded-circle {
 
 /* Contact Form */
 form .form-group {
-    text-align: left;
+    text-align: center; /* Center the form group */
     margin: 0 auto;
 }
 form label {
     display: block;
-    margin-bottom: 0.5rem;
+    margin: 0 auto 0.5rem auto; /* Center the labels above the input fields */
+    max-width: 400px; /* Ensure the labels align with the input fields */
+    text-align: left; /* Left-align the text within the centered labels */
 }
 form .form-control {
     width: 100%;
     max-width: 400px;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 1rem auto; /* Center the input fields */
 }
 form .btn {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the submit button */
 }
 
 /* Responsive Design */
